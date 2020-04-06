@@ -7,6 +7,8 @@ Things you may want to cover:
 
 * Ruby version : 2.6.0
 
+* Rails version : Rails 5.2.4.2
+
 * github repo :- https://github.com/pravinkarale/Postgre-Demo-App.git
 
 * System dependencies
