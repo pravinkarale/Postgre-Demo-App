@@ -83,9 +83,9 @@ development:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
-#
-# production:
-#   <<: *default
-#   database: Demo-pg-app_production
-#   username: Demo-pg-app
-#   password: <%= ENV['DEMO-PG-APP_DATABASE_PASSWORD'] %>
+
+production:
+  <<: *default
+  database: Demo_pg-app_production
+  username: pravin
+  password: root
