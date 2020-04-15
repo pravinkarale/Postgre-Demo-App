@@ -1,0 +1,535 @@
+=== puma startup: 2020-04-14 22:44:36 +0530 ===
+Exiting
+=== puma startup: 2020-04-14 22:44:41 +0530 ===
+Exiting
+=== puma startup: 2020-04-14 22:44:58 +0530 ===
+Exiting
+=== puma startup: 2020-04-14 22:45:52 +0530 ===
+Exiting
+=== puma startup: 2020-04-15 11:09:39 +0530 ===
+Exiting
+=== puma startup: 2020-04-15 11:12:39 +0530 ===
+[22460] * Starting control server on unix:///tmp/puma-status-1586929359148-22460
+[22460] - Worker 0 (pid: 22471) booted, phase: 0
+[22460] - Worker 1 (pid: 22473) booted, phase: 0
+[22460] - Gracefully shutting down workers...
+[22460] === puma shutdown: 2020-04-15 11:17:34 +0530 ===
+[22460] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:17:37 +0530 ===
+[22892] * Starting control server on unix:///tmp/puma-status-1586929657564-22892
+[22892] - Worker 0 (pid: 22903) booted, phase: 0
+[22892] - Worker 1 (pid: 22905) booted, phase: 0
+[22892] - Gracefully shutting down workers...
+[22892] === puma shutdown: 2020-04-15 11:17:39 +0530 ===
+[22892] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:17:44 +0530 ===
+[22943] * Starting control server on unix:///tmp/puma-status-1586929664004-22943
+[22943] - Worker 0 (pid: 22955) booted, phase: 0
+[22943] - Worker 1 (pid: 22957) booted, phase: 0
+[22943] - Gracefully shutting down workers...
+[22943] === puma shutdown: 2020-04-15 11:20:54 +0530 ===
+[22943] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:21:02 +0530 ===
+[23257] * Starting control server on unix:///tmp/puma-status-1586929862446-23257
+[23257] - Worker 0 (pid: 23268) booted, phase: 0
+[23257] - Worker 1 (pid: 23271) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 11:21:10 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[23257] - Gracefully shutting down workers...
+[23257] === puma shutdown: 2020-04-15 11:21:30 +0530 ===
+[23257] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:21:37 +0530 ===
+[23360] * Starting control server on unix:///tmp/puma-status-1586929897140-23360
+[23360] - Worker 0 (pid: 23371) booted, phase: 0
+[23360] - Worker 1 (pid: 23373) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 11:21:42 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[23360] - Gracefully shutting down workers...
+[23360] === puma shutdown: 2020-04-15 11:23:04 +0530 ===
+[23360] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:23:08 +0530 ===
+[23486] * Starting control server on unix:///tmp/puma-status-1586929988978-23486
+[23486] - Worker 0 (pid: 23497) booted, phase: 0
+[23486] - Worker 1 (pid: 23500) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 11:23:15 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[23486] - Gracefully shutting down workers...
+[23486] === puma shutdown: 2020-04-15 11:23:23 +0530 ===
+[23486] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:23:28 +0530 ===
+[23547] * Starting control server on unix:///tmp/puma-status-1586930008837-23547
+[23547] - Worker 0 (pid: 23559) booted, phase: 0
+[23547] - Worker 1 (pid: 23561) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 11:23:34 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[23547] - Gracefully shutting down workers...
+[23547] === puma shutdown: 2020-04-15 11:23:58 +0530 ===
+[23547] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 11:24:02 +0530 ===
+[23625] * Starting control server on unix:///tmp/puma-status-1586930042823-23625
+[23625] - Worker 0 (pid: 23636) booted, phase: 0
+[23625] - Worker 1 (pid: 23638) booted, phase: 0
+[23625] ! Terminating timed out worker: 23638
+[23625] - Worker 1 (pid: 23885) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 12:59:05 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[23625] - Gracefully shutting down workers...
+[23625] === puma shutdown: 2020-04-15 13:03:19 +0530 ===
+[23625] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 13:03:23 +0530 ===
+[24254] * Starting control server on unix:///tmp/puma-status-1586936003786-24254
+[24254] - Worker 0 (pid: 24269) booted, phase: 0
+[24254] - Worker 1 (pid: 24272) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 13:03:24 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[24254] - Gracefully shutting down workers...
+[24254] === puma shutdown: 2020-04-15 13:04:35 +0530 ===
+[24254] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 13:04:37 +0530 ===
+[24442] * Starting control server on unix:///tmp/puma-status-1586936077975-24442
+[24442] - Worker 0 (pid: 24455) booted, phase: 0
+[24442] - Worker 1 (pid: 24458) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 13:04:40 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.000 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[24442] ! Terminating timed out worker: 24458
+[24442] ! Out-of-sync worker list, no 24458 worker
+[24442] - Worker 1 (pid: 25994) booted, phase: 0
+[24442] ! Terminating timed out worker: 24455
+[24442] ! Out-of-sync worker list, no 24455 worker
+[24442] - Worker 0 (pid: 28176) booted, phase: 0
+[24442] - Gracefully shutting down workers...
+[24442] === puma shutdown: 2020-04-15 18:33:50 +0530 ===
+[24442] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 18:34:10 +0530 ===
+[28475] * Starting control server on unix:///tmp/puma-status-1586955850346-28475
+[28475] - Worker 0 (pid: 28490) booted, phase: 0
+[28475] - Worker 1 (pid: 28492) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 18:34:32 +0530
+  
+ActiveRecord::ConnectionTimeoutError (could not obtain a connection from the pool within 5.000 seconds (waited 5.001 seconds); all pooled connections were in use):
+  
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:201:in `block in wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `loop'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `wait_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:151:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:277:in `internal_poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `block in poll'
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:155:in `synchronize'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:145:in `poll'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:818:in `acquire_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/connection_handling.rb:90:in `connection'
+vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/migration.rb:554:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.2.4.2/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.2.4.2/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.2/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.2.4.2/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:675:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:476:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+[28475] - Gracefully shutting down workers...
+[28475] === puma shutdown: 2020-04-15 18:36:22 +0530 ===
+[28475] - Goodbye!
+Exiting
+=== puma startup: 2020-04-15 18:36:26 +0530 ===
+[28630] * Starting control server on unix:///tmp/puma-status-1586955986090-28630
+[28630] - Worker 0 (pid: 28641) booted, phase: 0
+[28630] - Worker 1 (pid: 28644) booted, phase: 0
+Started GET "/" for ::1 at 2020-04-15 18:36:31 +0530
+  [1m[35m (79.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#index as HTML
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-15 18:36:32 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering vendor/bundle/ruby/2.6.0/gems/devise-4.7.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered vendor/bundle/ruby/2.6.0/gems/devise-4.7.1/app/views/devise/shared/_links.html.erb (2.5ms)
+  Rendered vendor/bundle/ruby/2.6.0/gems/devise-4.7.1/app/views/devise/sessions/new.html.erb within layouts/application (134.5ms)
+Completed 200 OK in 1782ms (Views: 1665.3ms | ActiveRecord: 103.6ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-04-15 18:36:45 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BAcSNtDGCJRHXePI3qdFyrdEj+1U399ZHWSNRnSPLfQzaoeJRp51cJUUoHkZSTzdi2IKzeA9wDcmS06UFsupTA==", "user"=>{"email"=>"pravinkarale21@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (82.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "pravinkarale21@gmail.com"], ["LIMIT", 1]]
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3001/
+Completed 302 Found in 444ms (ActiveRecord: 89.5ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-04-15 18:37:20 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3001/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 47ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/" for ::1 at 2020-04-15 18:37:20 +0530
+Processing by HomesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ vendor/bundle/ruby/2.6.0/gems/activerecord-5.2.4.2/lib/active_record/log_subscriber.rb:98
+  Rendering homes/index.html.erb within layouts/application
+  Rendered homes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.6ms)
+
+
+[28630] ! Terminating timed out worker: 28644
+[28630] ! Out-of-sync worker list, no 28644 worker
+[28630] - Worker 1 (pid: 29957) booted, phase: 0
+[28630] - Gracefully shutting down workers...
+[28630] === puma shutdown: 2020-04-15 20:03:34 +0530 ===
+[28630] - Goodbye!
+Exiting

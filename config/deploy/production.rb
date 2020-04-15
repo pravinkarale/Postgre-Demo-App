@@ -8,6 +8,9 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
+set :deploy_server, "production"
+set :branch, :master
+server 'ec2-3-22-183-102.us-east-2.compute.amazonaws.com', user: 'ubuntu', roles: %w{web db app}, my_property: :my_value
 
 # role-based syntax
 # ==================

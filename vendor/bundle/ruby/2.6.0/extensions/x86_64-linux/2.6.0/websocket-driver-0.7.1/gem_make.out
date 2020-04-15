@@ -1,0 +1,15 @@
+current directory: /home/pravin-karale/pravin/projects/aws/Demo-pg-app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+/home/pravin-karale/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/pravin-karale/.rvm/rubies/ruby-2.6.0/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200407-6064-137gfap.rb extconf.rb
+creating Makefile
+
+current directory: /home/pravin-karale/pravin/projects/aws/Demo-pg-app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/pravin-karale/pravin/projects/aws/Demo-pg-app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/pravin-karale/pravin/projects/aws/Demo-pg-app/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20200407-6064-1uu3nj5
