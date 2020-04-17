@@ -533,3 +533,61 @@ Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.6ms)
 [28630] === puma shutdown: 2020-04-15 20:03:34 +0530 ===
 [28630] - Goodbye!
 Exiting
+=== puma startup: 2020-04-17 16:00:30 +0530 ===
+[9396] * Starting control server on unix:///tmp/puma-status-1587119430105-9396
+[9396] - Worker 1 (pid: 9414) booted, phase: 0
+[9396] - Worker 0 (pid: 9411) booted, phase: 0
+[9396] - Gracefully shutting down workers...
+[9396] === puma shutdown: 2020-04-17 16:22:40 +0530 ===
+[9396] - Goodbye!
+Exiting
+=== puma startup: 2020-04-17 16:22:56 +0530 ===
+[10369] * Starting control server on unix:///tmp/puma-status-1587120776382-10369
+[10369] - Worker 0 (pid: 10462) booted, phase: 0
+[10369] - Worker 1 (pid: 10464) booted, phase: 0
+[10369] - Gracefully shutting down workers...
+[10369] === puma shutdown: 2020-04-17 16:23:15 +0530 ===
+[10369] - Goodbye!
+Exiting
+=== puma startup: 2020-04-17 16:23:25 +0530 ===
+[10596] * Starting control server on unix:///tmp/puma-status-1587120805809-10596
+[10596] - Worker 0 (pid: 10611) booted, phase: 0
+[10596] - Worker 1 (pid: 10614) booted, phase: 0
+[10596] ! Terminating timed out worker: 10611
+[10596] - Worker 0 (pid: 11035) booted, phase: 0
+[10596] - Gracefully shutting down workers...
+[10596] === puma shutdown: 2020-04-17 16:49:40 +0530 ===
+[10596] - Goodbye!
+Exiting
+=== puma startup: 2020-04-17 17:01:03 +0530 ===
+[11773] * Starting control server on unix:///tmp/puma-status-1587123063923-11773
+[11773] - Worker 0 (pid: 11784) booted, phase: 0
+[11773] - Worker 1 (pid: 11787) booted, phase: 0
+[11773] - Gracefully shutting down workers...
+[11773] === puma shutdown: 2020-04-17 17:01:58 +0530 ===
+[11773] - Goodbye!
+Exiting
+=== puma startup: 2020-04-17 17:02:02 +0530 ===
+[11891] * Starting control server on unix:///tmp/puma-status-1587123122552-11891
+[11891] - Worker 0 (pid: 11902) booted, phase: 0
+[11891] - Worker 1 (pid: 11904) booted, phase: 0
+[11891] - Gracefully shutting down workers...
+[11891] === puma shutdown: 2020-04-17 17:03:37 +0530 ===
+[11891] - Goodbye!
+Exiting
+=== puma startup: 2020-04-17 17:03:39 +0530 ===
+[12045] * Starting control server on unix:///tmp/puma-status-1587123219656-12045
+[12045] - Worker 1 (pid: 12061) booted, phase: 0
+[12045] - Worker 0 (pid: 12058) booted, phase: 0
+[12045] - Gracefully shutting down workers...
+[12045] === puma shutdown: 2020-04-17 18:32:45 +0530 ===
+[12045] - Goodbye!
+Exiting
+=== puma startup: 2020-04-17 18:41:19 +0530 ===
+[15337] * Starting control server on unix:///tmp/puma-status-1587129079830-15337
+[15337] - Worker 0 (pid: 15375) booted, phase: 0
+[15337] - Worker 1 (pid: 15377) booted, phase: 0
+[15337] - Gracefully shutting down workers...
+[15337] === puma shutdown: 2020-04-17 19:16:22 +0530 ===
+[15337] - Goodbye!
+Exiting
