@@ -41,5 +41,5 @@ development:
 production:
   <<: *default
   database: Demo_pg_app_production
-  username: postgres
+  username: pravin
   password: root
