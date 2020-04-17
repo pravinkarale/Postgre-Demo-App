@@ -40,6 +40,6 @@ development:
 
 production:
   <<: *default
-  database: Demo_pg_app_production
+  database: demo_pg_app_production
   username: pravin
   password: root
